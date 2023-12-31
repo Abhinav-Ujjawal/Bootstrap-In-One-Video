@@ -1,0 +1,3 @@
+add red star to necessary fields in contact
+add redirecting pages
+add response on submitting contact form
