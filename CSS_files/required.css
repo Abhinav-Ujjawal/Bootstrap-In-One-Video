@@ -1,6 +1,13 @@
-<style>
-  .required:after {
-    content:"*  ";
-    color: red;
-  }
-</style>
+.mandatory {
+  color: red;
+  display: inline-block;
+  vertical-align: middle;
+}
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: red;
+}
