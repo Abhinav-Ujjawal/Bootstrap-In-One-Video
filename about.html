@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS_files/scroll_back.css">
 
     <title>ByteBloom - Heaven for Programmers</title>
 </head>
@@ -26,7 +27,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
-                
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -92,7 +93,8 @@
                     <!-- <span class="text-muted">It'll blow your
                         mind.</span> -->
                 </h2>
-                <p class="lead">Check out the <a href="contact.html">contact</a> page now to be the part of an awesome community.</p>
+                <p class="lead">Check out the <a href="contact.html">contact</a> page now to be the part of an awesome
+                    community.</p>
             </div>
             <div class="col-md-5">
                 <img class="img-fluid" src="about-3.jpg" alt="">
@@ -102,8 +104,24 @@
     </div>
 
     <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>© 2023-2024 ByteBloom, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <a class="top-link hide" href="" id="js-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+              <path d="M12 6H0l6-6z" />
+            </svg>
+          </a>
+          <!-- <span class="screen-reader-text">Back to top</span> -->
+          <!-- <p class="float-right"><a href="#">Back to top</a></p> -->
+          <p>© 2023-2024 ByteBloom, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a>
+          <!-- Social handles/icons -->
+          <span class="float-right">
+            <a href="https://github.com/Abhinav-Ujjawal" class="social-icon"><img src="assets\github.png" alt="Twitter" width="20" height="20"></a> · 
+            <a href="https://www.linkedin.com/in/abhinav-ujjawal-99a042259/" class="social-icon"><img src="assets\linkedin.png" alt="Twitter" width="20" height="20"></a> · 
+            <a href="#" class="social-icon"><img src="assets\fb.png" alt="Facebook" width="20" height="20"></a> · 
+            <a href="#" class="social-icon"><img src="assets\twitter.png" alt="Twitter" width="20" height="20"></a> · 
+            <a href="#" class="social-icon"><img src="assets\insta.png" alt="Instagram" width="20" height="20"></a>
+          </span>
+          
+          </p>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -116,6 +134,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="JS_files/scroll_back.js"></script>
 </body>
 
 </html>

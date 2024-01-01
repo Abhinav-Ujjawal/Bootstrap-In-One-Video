@@ -9,7 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS_files/required.css">
+  <link rel="stylesheet" type="text/css" href="CSS_files/scroll_back.css">
+  <link rel="stylesheet" href="CSS_files/required.css">
     <title>ByteBloom - Heaven for Programmers</title>
 </head>
 
@@ -26,7 +27,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
-                
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,14 +59,16 @@
 
     <div class="container my-4">
         <h2>Contact Us</h2>
+        <br><br>
         <form>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Email address <span class="mandatory"> *</span></label>
+                <label for="exampleFormControlInput1"><b>Email address</b><span class="mandatory"> *</span></label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <br>
+
             <div class="form-group">
-                <label for="exampleFormControlSelect1">Select the topic of your Query <span class="mandatory">
+                <label for="exampleFormControlSelect1"><b>Select the topic of your Query</b> <span class="mandatory">
                         *</span></label>
                 <select class="form-control" id="exampleFormControlSelect1">
                     <option>Web</option>
@@ -77,22 +80,23 @@
             <br>
 
             <div class="form-group row">
-                <div class="col-sm-2">Are you a Member? <span class="mandatory"> *</span></div>
+                <div class="col-sm-2"><b>Are you a Member?</b> <span class="mandatory"> *</span></div>
                 <div class="col-sm-10">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="membership" id="yesRadio"
+                                <input class="form-check-input" type="radio" name="membership" id="yes-member"
                                     value="yes">
-                                <label class="form-check-label" for="yesRadio">
+                                <label class="form-check-label" for="yes-member">
                                     Yes
                                 </label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="membership" id="noRadio" value="no">
-                                <label class="form-check-label" for="noRadio">
+                                <input class="form-check-input" type="radio" name="membership" id="no-member"
+                                    value="no">
+                                <label class="form-check-label" for="no-member">
                                     No
                                 </label>
                             </div>
@@ -101,41 +105,44 @@
                 </div>
             </div>
             <br>
+
             <div class="form-group row">
                 <div class="col-sm-2">In case you aren't a member, would you like to become one?</div>
                 <div class="col-sm-10">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="becomeMemberCheckbox">
-                        <label class="form-check-label" for="becomeMemberCheckbox">
-                            Yes, I want to become a member :)
+                        <input class="form-check-input" type="radio" name="member" id="becomeMemberRadio" disabled>
+                        <label class="form-check-label" for="becomeMemberRadio">
+                            Yes, I want to become a member &#128512
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="becomeMemberCheckbox">
-                        <label class="form-check-label" for="becomeMemberCheckbox">
-                            Nope :(
+                        <input class="form-check-input" type="radio" name="member" id="not-becomeMemberRadio" disabled>
+                        <label class="form-check-label" for="not-becomeMemberRadio">
+                            Nope &#128529
                         </label>
                     </div>
                 </div>
             </div>
             <br>
+
             <div class="form-group row">
-                <div class="col-sm-2">Are you an Educator?<span class="mandatory">*</span></div>
+                <div class="col-sm-2"><b>Are you a Teacher?</b><span class="mandatory">*</span></div>
                 <div class="col-sm-10">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="membership" id="yesRadio"
+                                <input class="form-check-input" type="radio" name="membership" id="yes-Educator"
                                     value="yes">
-                                <label class="form-check-label" for="yesRadio">
+                                <label class="form-check-label" for="yes-Educator">
                                     Yes
                                 </label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="membership" id="noRadio" value="no">
-                                <label class="form-check-label" for="noRadio">
+                                <input class="form-check-input" type="radio" name="membership" id="no-Educator"
+                                    value="no">
+                                <label class="form-check-label" for="no-Educator">
                                     No
                                 </label>
                             </div>
@@ -144,26 +151,56 @@
                 </div>
             </div>
             <br>
+
+            <div class="mb-3">
+                <label for="basic-url" class="form-label"><b>Your vanity URL</b></label>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon3">https://example.com/user/</span>
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                </div>
+                <div class="form-text" id="basic-addon4">Add a link keeping in mind that you are presenting or marketing
+                    yourself.</div>
+            </div>
+            <br>
+
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Tell us a bit about yourself</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"
                     placeholder="This is completely optional but if you want to join us, we would like to know you better!"></textarea>
             </div>
             <br>
+
             <div class="form-group">
                 <label for="exampleFormControlTextarea2">Elaborate Your Concern <span class="mandatory">
                         *</span></label>
                 <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"
-                    placeholder="Fill NA if you want to become a member and tick mark the checkbox above."></textarea>
+                    placeholder="Fill NA if you want to become a member and tick mark the Yes checkbox above!"></textarea>
             </div>
+            <br>
             <button class="btn btn-primary">Submit</button>
         </form>
 
     </div>
 
     <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>© 2023-2024 ByteBloom, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <a class="top-link hide" href="" id="js-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+              <path d="M12 6H0l6-6z" />
+            </svg>
+          </a>
+          <!-- <span class="screen-reader-text">Back to top</span> -->
+          <!-- <p class="float-right"><a href="#">Back to top</a></p> -->
+          <p>© 2023-2024 ByteBloom, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a>
+          <!-- Social handles/icons -->
+          <span class="float-right">
+            <a href="https://github.com/Abhinav-Ujjawal" class="social-icon"><img src="assets\github.png" alt="Twitter" width="20" height="20"></a> · 
+            <a href="https://www.linkedin.com/in/abhinav-ujjawal-99a042259/" class="social-icon"><img src="assets\linkedin.png" alt="Twitter" width="20" height="20"></a> · 
+            <a href="#" class="social-icon"><img src="assets\fb.png" alt="Facebook" width="20" height="20"></a> · 
+            <a href="#" class="social-icon"><img src="assets\twitter.png" alt="Twitter" width="20" height="20"></a> · 
+            <a href="#" class="social-icon"><img src="assets\insta.png" alt="Instagram" width="20" height="20"></a>
+          </span>
+          
+          </p>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -177,7 +214,8 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
-    <!-- JS code from here on -->
+    <!-- Custom JS code from here on -->
+    <script src="JS_files/scroll_back.js"></script>
     <script src="JS_files/form.js">
     </script>
 

@@ -11,3 +11,11 @@
 ::-ms-input-placeholder { /* Edge 12 -18 */
   color: red;
 }
+
+#becomeMemberSection {
+  color: #999; /* Gray color */
+}
+
+#becomeMemberSection input[type="radio"]:checked + label {
+  color: #000; /* Black color for checked radio button labels */
+}

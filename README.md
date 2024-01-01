@@ -35,12 +35,12 @@
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <!-- <a href="#sparkles-features">Features</a> &#xa0; | &#xa0; -->
+  <!-- <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0; -->
+  <!-- <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0; -->
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/abhinav-ujjawal" target="_blank">Author</a>
 </p>
 
 <br>
@@ -62,9 +62,9 @@ This is a fully responsive website made using Bootstrap. It uses HTML, CSS, and 
 - [x] Add a required star on the contact page
 - [x] Change the order of the fields on the site
 - [x] Add socials on the home page
-- [ ] Add more cards and redirect pages
+- [x] Add more cards and redirect pages
 - [ ] Add a response to submission forms
-- [ ] Add a demo video of the site in the README
+<!-- - [ ] Add a demo video of the site in the README -->
 
 
 ## :rocket: Technologies ##
