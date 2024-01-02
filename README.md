@@ -45,16 +45,15 @@
 
 <br>
 
-## :dart: About ##<!-- ### ❓ About -->
+## :dart: About ##
 This is a fully responsive website made using Bootstrap. It uses HTML, CSS, and JS to make a coding blog. <br>
 **Welcome to ByteBloom!**
 
+## :sparkles: Features ##
 
-<!-- ## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3; -->
+:heavy_check_mark: Responsive design;\
+:heavy_check_mark: Back-to-Top functionality;\
+:heavy_check_mark: Dynamic query forms;
 
 ### 📝 Todo in upcoming patches
 
@@ -71,24 +70,25 @@ This is a fully responsive website made using Bootstrap. It uses HTML, CSS, and 
 
 The following tools were used in this project:
 
-- [HTML](https://expo.io/)
-- [CSS](https://nodejs.org/en/)
-- [JavaScript](https://pt-br.reactjs.org/)
-- [BootStrap](https://www.typescriptlang.org/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+- [BootStrap](https://getbootstrap.com/)
+- [React JS](https://react.dev/)
 <!-- - [React Native](https://reactnative.dev/) -->
 
 <!-- ## :white_check_mark: Requirements ##
 
-None at all! Just star -->
+None at all! Just start by cloning the project!-->
 
 <!-- ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/bytebloom
+$ git clone https://github.com/Abhinav-Ujjawal/Coding-Blog-using-Bootstrap
 
 # Access
-$ cd bytebloom
+$ cd Coding-Blog-using-Bootstrap
 
 # Install dependencies
 $ yarn
@@ -104,8 +104,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{abhinav-ujjawal}}" target="_blank">{{Abhinav Ujjawal}}</a>
+Made with :heart: by <a href="https://github.com/Abhinav-Ujjawal" target="_blank">Abhinav Ujjawal</a>
 
 &#xa0;
-
 <a href="#top">Back to top</a>
