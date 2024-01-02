@@ -16,7 +16,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/abhinav-ujjawal/Coding-Blog-using-Bootstrap?color=56BEB8">
 
-  
+  <img alt="License" src="https://img.shields.io/github/license/abhinav-ujjawal/Coding-Blog-using-Bootstrap?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/abhinav-ujjawal/Coding-Blog-using-Bootstrap?color=56BEB8" /> -->
 
