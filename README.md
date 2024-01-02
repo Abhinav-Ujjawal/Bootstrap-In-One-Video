@@ -74,8 +74,8 @@ The following tools were used in this project:
 - [HTML](https://expo.io/)
 - [CSS](https://nodejs.org/en/)
 - [JavaScript](https://pt-br.reactjs.org/)
-<!-- - [React Native](https://reactnative.dev/) -->
 - [BootStrap](https://www.typescriptlang.org/)
+<!-- - [React Native](https://reactnative.dev/) -->
 
 <!-- ## :white_check_mark: Requirements ##
 
@@ -109,17 +109,3 @@ Made with :heart: by <a href="https://github.com/{{abhinav-ujjawal}}" target="_b
 &#xa0;
 
 <a href="#top">Back to top</a>
-
-### ❓ About
-This is a fully responsive website made using Bootstrap. It uses HTML, CSS, and JS to make a coding blog. <br>
-**Welcome to ByteBloom!**
-
-### 📝 Todo in upcoming patches
-
-- [x] Add back to top button on the home page
-- [x] Add a required star on the contact page
-- [x] Change the order of the fields on the site
-- [x] Add socials on the home page
-- [ ] Add more cards and redirect pages
-- [ ] Add a response to submission forms
-- [ ] Add a demo video of the site in the README
