@@ -62,7 +62,7 @@ This is a fully responsive website made using Bootstrap. It uses HTML, CSS, and 
 - [x] Change the order of the fields on the site
 - [x] Add socials on the home page
 - [x] Add more cards and redirect pages
-- [ ] Add a response to submission forms
+- [x] Add a response to submission forms
 <!-- - [ ] Add a demo video of the site in the README -->
 
 

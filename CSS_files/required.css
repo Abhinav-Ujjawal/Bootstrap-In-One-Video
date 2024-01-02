@@ -19,3 +19,29 @@
 #becomeMemberSection input[type="radio"]:checked + label {
   color: #000; /* Black color for checked radio button labels */
 }
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+  animation: slideInRight 0.5s ease-in-out;
+}
+
+/* .notification-content {
+  
+} */
+
+@keyframes slideInRight {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}

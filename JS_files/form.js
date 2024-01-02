@@ -1,48 +1,71 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//     const noMemberRadio = document.getElementById('no-member');
-//     const becomeMemberSection = document.getElementById('becomeMemberSection');
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevents the form from actually submitting
 
-//     function updateMembershipSection() {
-//         becomeMemberSection.style.color = noMemberRadio.checked ? '#999' : ''; // Change color based on selection
-//         becomeMemberSection.style.display = noMemberRadio.checked ? 'block' : 'none'; // Show/hide section based on selection
-//     }
+    // // Display a notification
+    // var notification = document.getElementById('notification');
+    // notification.textContent = 'Form submitted!'; // You can customize this message
 
-//     noMemberRadio.addEventListener('change', updateMembershipSection);
+    // // You can also add more styling to the notification element
+    // notification.style.display = 'block';
 
-//     // Initial check on page load
-//     updateMembershipSection();
-// });
+    // // Clear the notification after a few seconds (e.g., 3 seconds)
+    // setTimeout(function() {
+    //     notification.textContent = '';
+    //     notification.style.display = 'none';
+    // }, 3000);
 
+    //OR
+    // alert('Form submitted!');
+    //OR
+    
+    // Swal.fire({
+        //     title: 'Form submitted!',
+        //     icon: 'success',
+    //     showConfirmButton: false,
+    //     timer: 2000,
+    //     didClose: () => {
+    //         // Resetting form fields
+    //         document.getElementById('myForm').reset();
+    //     }
+    // });
+    
+    //OR    
+    Swal.showLoading();
+    console.log("Loading...");
+    console.log("Loaded successfully!");
+    setTimeout(function() {
+        // Close the loading spinner and show the success message
+        Swal.close();
+        Swal.fire({
+            title: 'Form submitted!',
+            text: 'Thank you for submitting the form.',
+            icon: 'success'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Resetting form fields after the alert is closed
+                document.getElementById('myForm').reset();
 
+                // window.scrollTo({
+                    //     top: 0,
+                    //     behavior: 'smooth'
+                    // });
+                // setTimeout(() => {
+                //     // Action to be performed after the wait time
+                //     console.log("Waiting for 2 seconds.");
+                // }, 2000);
+                // Smoothly scrolling to the top of the page
+                
+                ScrollToTopbutnotsuddenly();
+            }
+        });
+    }, 500); 
+});
 
-// document.addEventListener('DOMContentLoaded', function () {
-//     // Get the form element
-//     const form = document.querySelector('form');
+const ScrollToTopbutnotsuddenly = () => {
+    const c = document.documentElement.scrollTop || document.body.scrollTop;
 
-//     // Function to handle form submission
-//     form.addEventListener('submit', function (event) {
-//         event.preventDefault(); // Prevent the default form submission
-
-//         // Disable the submit button
-//         const submitButton = document.querySelector('button[type="submit"]');
-//         submitButton.disabled = true;
-
-//         // Show a loading message or animation
-//         // You can replace this with your loading animation logic
-//         // For example, change the text of the button to 'Submitting...'
-//         submitButton.innerText = 'Submitting...';
-
-//         // Simulate a delay (you can replace this with your form submission logic)
-//         setTimeout(function () {
-//             // Reset the form after a delay (simulating successful submission)
-//             form.reset();
-
-//             // Show a success message
-//             alert('Form submitted successfully!');
-
-//             // Re-enable the submit button
-//             submitButton.disabled = false;
-//             submitButton.innerText = 'Submit'; // Reset the button text
-//         }, 2000); // Change this delay to suit your needs (in milliseconds)
-//     });
-// });
+    if (c > 0) {
+        window.requestAnimationFrame(scrollToTop);
+        window.scrollTo(0, c - c / 10);
+    }
+};
