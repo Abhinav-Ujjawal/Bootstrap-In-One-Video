@@ -55,7 +55,7 @@ This is a fully responsive website made using Bootstrap. It uses HTML, CSS, and 
 :heavy_check_mark: Back-to-Top functionality;\
 :heavy_check_mark: Dynamic query forms;
 
-### 📝 Todo in upcoming patches
+### 📝 Todo in upcoming patches (ALL Achieved :white_check_mark:)
 
 - [x] Add back to top button on the home page
 - [x] Add a required star on the contact page
@@ -96,7 +96,7 @@ $ yarn
 # Run the project
 $ yarn start
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://localhost:5500>
 ``` -->
 
 ## :memo: License ##
@@ -107,4 +107,6 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 Made with :heart: by <a href="https://github.com/Abhinav-Ujjawal" target="_blank">Abhinav Ujjawal</a>
 
 &#xa0;
-<a href="#top">Back to top</a>
+
+Back to <a href="#top">🔝 </a>
+<hr>
