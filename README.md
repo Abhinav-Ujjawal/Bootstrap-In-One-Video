@@ -46,6 +46,7 @@ This is a fully responsive website made using Bootstrap. It uses HTML, CSS, and 
 Checkout the short demo video for the blog site created <a href="https://drive.google.com/file/d/1ePGygnahJndEObRcOpRQ4gewKoQTandH/view?usp=sharing"> here</a>!
 </div>
 Some snaps of the final site: <br><br>
+
 Homepage
 ![Homepage](https://github.com/Abhinav-Ujjawal/Coding-Blog-using-Bootstrap/assets/97021908/a38e6221-f201-4b58-b07f-139aa7ee08df)
 
