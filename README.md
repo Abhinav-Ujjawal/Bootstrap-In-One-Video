@@ -1,12 +1,4 @@
-
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="ByteBloom" />
-
-  &#xa0;
-
-  <!-- <a href="https://bytebloom.netlify.app">Demo</a> -->
-</div>
-
+<br><br>
 <h1 align="center">ByteBloom</h1>
 
 <p align="center">
@@ -49,13 +41,28 @@
 This is a fully responsive website made using Bootstrap. It uses HTML, CSS, and JS to make a coding blog. <br>
 **Welcome to ByteBloom!**
 
+
+## ⏯️Demo ##
+Checkout the short demo video for the blog site created <a href="https://drive.google.com/file/d/1ePGygnahJndEObRcOpRQ4gewKoQTandH/view?usp=sharing"> here</a>!
+</div>
+Some snaps of the final site: <br><br>
+Homepage
+![Homepage](https://github.com/Abhinav-Ujjawal/Coding-Blog-using-Bootstrap/assets/97021908/a38e6221-f201-4b58-b07f-139aa7ee08df)
+
+About page
+![image](https://github.com/Abhinav-Ujjawal/Coding-Blog-using-Bootstrap/assets/97021908/d5962b1a-a6f9-4ee1-8b9b-f7672c6f12f1)
+
+Contact form
+![Contact form](https://github.com/Abhinav-Ujjawal/Coding-Blog-using-Bootstrap/assets/97021908/0d900282-19ba-426e-8ba5-b03e3b847cf8)
+
+
 ## :sparkles: Features ##
 
 :heavy_check_mark: Responsive design;\
 :heavy_check_mark: Back-to-Top functionality;\
-:heavy_check_mark: Dynamic query forms;
+:heavy_check_mark: Dynamic query form;
 
-### 📝 Todo in upcoming patches (ALL Achieved :white_check_mark:)
+## 📝 Todo in upcoming patches (ALL Achieved :white_check_mark:)##
 
 - [x] Add back to top button on the home page
 - [x] Add a required star on the contact page
